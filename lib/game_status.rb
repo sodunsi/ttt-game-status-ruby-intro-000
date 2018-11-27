@@ -29,7 +29,6 @@ end
 def draw?(board)
 board.all?{|token| token == "X" || token == "O" || token == "X" && "0"}
   !won?(board)
-
 end
 
 def over?(board)
@@ -37,4 +36,8 @@ won?(board) || full?(board)
 end
 
 def winner(board)
+  if won?(board)
+    
+end
+    
 end
