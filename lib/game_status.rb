@@ -36,8 +36,9 @@ won?(board) || full?(board)
 end
 
 def winner(board)
-  if won?(board) == "X" || "0"
-    
+  if won?(board) == "X"
+    return won?(board)
+
 end
 
 end
