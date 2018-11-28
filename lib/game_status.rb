@@ -37,8 +37,6 @@ end
 
 def winner(board)
   if won?(board) == "X"
-    return !won?(board)
-
+    
 end
-
 end
